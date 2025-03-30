@@ -6,9 +6,9 @@ describe('Tests d\'API', () => {
   let authToken;
 
   // TESTS DE CONNEXION
-  it('devrait retourner une erreur 401 pour un utilisateur inconnu', () => {
+  it('devrait retourner une erreur 403 pour un utilisateur inconnu', () => {
     cy.loginApi(false).then((response) => {
-      expect(response.status).to.eq(401);
+      expect(response.status).to.eq(403);
     });
   });
 
