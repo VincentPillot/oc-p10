@@ -1,0 +1,4 @@
+cypress/screenshots
+node_modules
+mysql/
+mysql/mysql.sock

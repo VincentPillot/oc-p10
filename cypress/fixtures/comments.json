@@ -1,0 +1,12 @@
+{
+    "validComment" : {
+        "title": "Test titre valide",
+        "comment": "Test commentaire valide des plus classique.",
+        "rating": 3
+    }, 
+    "xssComment" : {
+        "title": "<script>alert('test titre XSS !');</script>",
+        "comment": "<script>alert('test commentaire XSS !');</script>",
+        "rating": 5
+    }
+}
